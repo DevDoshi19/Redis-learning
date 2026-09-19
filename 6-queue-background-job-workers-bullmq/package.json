@@ -1,0 +1,18 @@
+{
+    "name": "6-queue-background-job-workers-bullmq",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "node src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bullmq": "^5.4.2",
+        "express": "^4.18.3",
+        "ioredis": "^5.4.1"
+    }
+}

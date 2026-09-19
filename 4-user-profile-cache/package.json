@@ -1,12 +1,17 @@
 {
-    "name": "2-site-banner",
+    "name": "4-user-profile-cache",
     "version": "1.0.0",
-    "private": true,
+    "description": "",
+    "main": "index.js",
     "type": "module",
     "scripts": {
         "dev": "node src/index.js"
     },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
     "dependencies": {
+        "crypto": "^1.0.1",
         "express": "^4.18.3",
         "ioredis": "^5.4.1",
         "mongoose": "^8.2.1",
